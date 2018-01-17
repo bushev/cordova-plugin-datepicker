@@ -270,6 +270,7 @@
   [dateFormatter setLocale: loc];
   [dateFormatter setTimeZone:timezone];
   [dateFormatter setDateFormat:format];
+  [dateFormatter setDateStyle:NSDateFormatterFullStyle];
   
   return dateFormatter;
 }
